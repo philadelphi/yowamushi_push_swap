@@ -6,7 +6,7 @@
 /*   By: phaslan <phaslan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/22 18:28:47 by phaslan           #+#    #+#             */
-/*   Updated: 2022/01/30 16:21:04 by phaslan          ###   ########.fr       */
+/*   Updated: 2022/02/01 14:05:41 by phaslan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,6 @@ typedef struct t_stack
 } t_data;
 
 int     Error_check(char **av);
-void    initList(s_stack **listA, t_data *info, char **av);
-
+void init_stack(s_stack **stackA, t_data *data, char **av);
 
 #endif
